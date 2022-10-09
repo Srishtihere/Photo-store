@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="webpage-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Photo-store</title>
+</head>
+<body>
+  <div class="container">
+    <div class="side-navbar grid-item">
+      <div class="title">
+        <img src="title.png" alt="title-img">
+        <h2>Photo Store</h2>
+      </div> 
+      <div class="nav-items" style="height: 80%;">
+        <h3 style="font-size: 30px;">TYPES</h3>
+        <div class="nav-item"><a href="#">Wildlife</a></div>
+        <div class="nav-item"><a href="#">Potrait</a></div>
+        <div class="nav-item"><a href="#">Fashion</a></div>
+        <div class="nav-item"><a href="#">Sports</a></div>
+        <div class="nav-item"><a href="#">Architecture</a></div>
+      </div>
+    </div>
+    <div class="above-navbar grid-item">
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a> |
+        <a href="#" class="fa fa-twitter"></a> |
+        <a href="#" class="fa fa-pinterest"></a> |
+        <a href="#" class="fa fa-linkedin"></a> | 
+        <a href="#" class="fa fa-instagram"></a> 
+      </div>
+      <div class="contact">
+        Ph no. +01 677533908 | Email - <a href="#"> contactemail@lettuce.in</a>
+      </div>
+    </div>
+    <div class="grid-item main-body">
+      <div class="wildlife">
+        <div class="img-type-1">
+          <img src="./images/wildlife/wildlife-img1.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/wildlife/wildlife-img2.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/wildlife/wildlife-img3.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/wildlife/wildlife-img4.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/wildlife/wildlife-img5.jpg" height="150px" width="250px">
+        </div>
+      </div>
+      <div class="sports">
+        <div class="img-type-1">
+          <img src="./images/sports/sports-img2.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/sports/sports-img3.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/sports/sports-img1.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/sports/sports-img4.jpg" height="150px" width="250px">
+        </div>
+      </div>
+      <div class="potrait">
+        <div class="img-type-2">
+          <img src="./images/potrait/potrait-img1.jpg" height="170px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/potrait/potrait-img2.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/potrait/potrait-img3.jpg"height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/potrait/potrait-img4.jpg" height="300px" width="200px">
+        </div>
+      </div>
+      <div class="fashion">
+        <div class="img-type-2">
+          <img src="./images/fashion/fashion-img1.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/fashion/fashion-img2.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/fashion/fashion-img3.jpg" height="300px" width="200px">
+        </div>
+        <!-- <div class="img-type-1">
+          <img src="./images/fashion/fashion-img4.jpg" height="150px" width="250px">
+        </div> -->
+        <!-- <div class="img-type-2">
+          <img src="./images/fashion/fashion-img5.jpg" height="300px" width="200px">
+        </div> -->
+      </div>
+      <div class="arch">
+        <div class="img-type-1">
+          <img src="./images/arch/arch-img2.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-2">
+          <img src="./images/arch/arch-img1.jpg" height="300px" width="200px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/arch/arch-img3.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/arch/arch-img4.jpg" height="150px" width="250px">
+        </div>
+        <div class="img-type-1">
+          <img src="./images/arch/arch-img5.jpg" height="150px" width="250px">
+        </div>
+      </div>
+    </div>
+    <div class="grid-item edit-menu">
+      <div class="edit-item">
+        <form action="/action_page.php" method="get">
+          <label for="vol">Opacity(between 0 and 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+          <input type="submit" value="Change">
+        </form>
+      </div>
+      <div class="edit-item">
+        <form action="/action_page.php" method="get">
+          <label for="vol">Tint(between 0 and 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+          <input type="submit" value="Change">
+        </form>
+      </div>
+      <div class="edit-item">
+        <form action="/action_page.php" method="get">
+          <label for="vol">Brightness(between 0 and 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+          <input type="submit" value="Change">
+        </form>
+      </div>
+      <div class="edit-item">
+        <form action="/action_page.php" method="get">
+          <label for="vol">Exposure(between 0 and 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+          <input type="submit" value="Change">
+        </form>
+      </div>
+      <div class="edit-item">
+        <form action="/action_page.php" method="get">
+          <label for="vol">Contrast(between 0 and 50):</label>
+          <input type="range" id="vol" name="vol" min="0" max="50">
+          <input type="submit" value="Change">
+        </form>
+      </div>
+    </div>
+    <div class="grid-item footer">
+      <h2 style="color:white ;">&copy;Copyright by Srishti </h2>
+    </div>
+    
+  </div>
+</body>
+</html>

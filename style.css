@@ -1,0 +1,173 @@
+.container{
+  display: grid;
+  grid-template-columns: 150px 900px auto;
+  grid-template-rows: 50px 550px;
+  background-color: rgba(255, 255, 255, 0.845);
+  
+}
+
+body{
+  background-image: url(bg.jpg);
+}
+
+.grid-item {
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  text-align: center;
+}
+
+.side-navbar{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.above-navbar{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.title{
+  height: 20%; 
+  /* border:1px solid rgba(0, 0, 0, 0.8); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item{
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0px 0px;
+}
+
+.nav-item:hover{
+  border: 2px solid white;
+  background-color: black;
+}
+
+div a{
+  text-decoration:none ; 
+  color: black;
+}
+
+div a:hover{
+  color: grey;
+}
+
+.nav-items{
+  line-height: 50px;
+}
+
+.above-navbar{
+  display: flex;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.contact{
+  /* border: 2px solid black; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.edit-menu{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.edit-item{
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0px 0px;
+  background-color:black;
+}
+
+.main-body{
+  display: flex;
+  overflow-y: scroll;
+}
+
+.wildlife{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.sports{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.potrait{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.sports{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.fashion{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.arch{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.img-type-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.img-type-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.footer{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.667);
+  border-radius: 10px;
+}
